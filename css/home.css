@@ -527,6 +527,70 @@ section.news{
 .content div{
 	text-align: center;
 }
+.loc-wrapper{
+	display: inline-block;
+	text-align: center;
+	min-height: 60vh;
+	width: 70vw;
+	margin: auto;
+	position: relative;
+}
+#map{
+	position: relative;
+	text-align: center;
+	color: #363535;
+	text-transform: uppercase;
+	width: 40vw;
+	height: 40vh;
+	margin: auto;
+	padding: 2vh;
+	border: 1px solid black;
+	background: #474747;
+	box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.3);
+}
+#map .helper{
+	display: block;
+	font-weight: bold;
+	font-size: 12px;
+	color: rgb(54,54,54);
+	width: 15vw;
+	line-height: 135%;
+	margin: auto;
+	margin-top: 10vh;
+}
+#map #preloader{
+	position: absolute;
+	top: 10vh;
+	left: 10vw;
+	display: none;
+}
+#map iframe{
+	border: 1px solid black;
+}
+.loc-wrapper .button{
+	padding: 13px 40px;
+	background-color: #00caa7;
+	color: #00caa7;
+	border-radius: 3px;
+	color: white;
+	display: block;
+	text-decoration: none;
+	box-shadow: inset 0px 1px 0px rgba(255,255,255, 0.3);
+	width: 122px;
+	margin: auto;
+	margin-top: 20px;
+}
+.loc-wrapper .button:hover{
+	background-color: #00b495;
+}
+#results{
+	color: rgb(0,180,149);
+	position: absolute;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 23px;
+	width: 100%;
+}
 footer{
 	border: 0px;
 	position: absolute;
