@@ -440,7 +440,7 @@ section.split {
 div#filler{
 	height: 20vh;
 }
-.grid-container{
+.grid-container1{
 	background-color:#737373;
 	display: grid;
 	grid-template-columns: auto auto auto;
@@ -452,7 +452,23 @@ div#filler{
 	color: white;
 	font-size: 14px;
 }
-.grid-container > div {
+.grid-container1 > div {
+	text-align: center;
+	padding: 1vh;
+}
+.grid-container2{
+	background-color: #737373;
+	display: grid;
+	grid-template-columns:auto auto;
+	grid-template-rows: auto auto auto auto;
+	justify-content: space-evenly;
+	height: 70vh;
+	padding: 5vh;
+	align-content: center;
+	color: white;
+	font-size: 14px;
+}
+.grid-container2 > div{
 	text-align: center;
 	padding: 1vh;
 }
@@ -485,7 +501,11 @@ div#filler{
 	height: 20vh;
 	width: 20vh;
 }
-.item3, .item4, .item7, .item8, .item11, .item12 {
+.item13 img{height: 20vh;width: 20vh;}
+.item14 img{height: 20vh; width: 20vh;}
+.item17 img{height: 20vh; width: 20vh;}
+.item18 img{height: 20vh; width: 20vh;}
+.item3, .item4, .item7, .item8, .item11, .item12, .item15, .item16, .item19, .item20 {
 	height: 10vh;
 }
 #iframe-box {
@@ -535,12 +555,17 @@ section.news{
 	margin: auto;
 	position: relative;
 }
+.box{
+	width: 30vw;
+	position: absolute;
+	height: 60vh;
+}
 #map{
 	position: relative;
 	text-align: center;
 	color: #363535;
 	text-transform: uppercase;
-	width: 40vw;
+	width: 30vw;
 	height: 40vh;
 	margin: auto;
 	margin-top: 20vh;
@@ -548,6 +573,8 @@ section.news{
 	border: 1px solid black;
 	background: #474747;
 	box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.3);
+	float: left;
+	margin-left: 15vw;
 }
 #map .helper{
 	display: block;
@@ -569,6 +596,7 @@ section.news{
 	border: 1px solid black;
 }
 .loc-wrapper .button{
+	position: relative;
 	padding: 13px 40px;
 	background-color: #00caa7;
 	color: #00caa7;
@@ -577,9 +605,11 @@ section.news{
 	display: block;
 	text-decoration: none;
 	box-shadow: inset 0px 1px 0px rgba(255,255,255, 0.3);
-	width: 122px;
+	width: 10vw;
+	height: 5vh;
 	margin: auto;
-	margin-top: 20vh;
+	margin-top: 70vh;
+	margin-left: 20vw;
 }
 .loc-wrapper .button:hover{
 	background-color: #00b495;
@@ -591,6 +621,29 @@ section.news{
 	text-align: center;
 	line-height: 23px;
 	width: 100%;
+}
+img#bio{
+	width: 36vh;
+	height: 20vh;
+	display: inline-block;
+	float: left;
+	padding: 5px;
+}
+div#albums1 p{
+	font-size: 12px;
+}
+div#albums2 p{
+	font-size: 12px;
+}
+div#albums2 img{
+	width: 36vh;
+	height: 20vh;
+	display: inline-block;
+	padding: 5px;
+}
+div.members img{
+	width: 36vh;
+	height: 20vh;
 }
 footer{
 	border: 0px;
