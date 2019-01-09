@@ -1,0 +1,123 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css\home.css">
+	<script src="js\main.js"></script>
+	<title>Homepage</title>
+</head>
+
+<body>
+
+<header>
+<div class="logo">
+	<img src="assets\logo.png" alt="Foo Fighters Logo">
+</div>
+<div id="myNav" class="overlay">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<div class="overlay-content">
+		<a href="about.html">About Us</a>
+		<a href="news.html">News</a>
+		<a href="#">Tour</a>
+		<a href="#">Merch</a>
+		<a href="music.html">Music</a>
+	</div>
+</div>
+<span style="font-size:30px;cursor:pointer; float:right; margin: 3px; margin-right: 2vw;" onclick="openNav()">&#9776;</span>
+<script src="js\navbar.js"></script>
+
+</header>
+<section ="body">
+<div class="hero-image">
+	<div class="hero-text">
+		<h1>foo fighters</h1>
+		<h3>Concrete and Gold</h3>
+		<a href="http://smarturl.it/FFCG" class="button">Stream/Buy Now</a>
+	</div>
+	<div class="ff-logo">
+		<img src="assets\ff-logo.svg" alt="Foo Fighters Logo">
+	</div>
+</div>	
+
+<section class="split">
+	<div>
+		<a href="https://open.spotify.com/album/6KMkuqIwKkwUhUYRPL6dUc" title="Concrete and Gold on Spotify"><img src="assets\albums\concrete.jpg"></a>
+		<a href="https://open.spotify.com/album/2qwN15acAl3sm3Idce5vK9" title="Sonic Highways on Spotify"><img src="assets\albums\sonichighways.jpg"></a>
+		<a href="https://open.spotify.com/album/5lnQLEUiVDkLbFJHXHQu9m" title="Wasting Light on Spotify"><img src="assets\albums\wastinglight.jpg"></a>
+		<span class="stretch"></span>
+	</div>
+</section>
+
+<div class="parallax-two">
+	<section id="news">
+		<div>
+			<h1>Foo Fighters to headline at Leeds Festival 2019</h1>
+			<p>The news was announced on BBC Radio 1's breakfast show with Greg James. The event will take place over the August bank holiday weekend at Bramham Park</p>
+			<a href="https://www.leedsfestival.com/" class="button">Leeds Festival</a>
+		</div>
+		<img src="assets\davegrohl.jpg">
+	</section>
+</div>
+
+<section class="split">
+	<div>
+		<a href="https://open.spotify.com/album/1zCNrbPpz5OLSr6mSpPdKm" title="Greatest Hits on Spotify"><img src="assets\albums\greatest.jpg"></a>
+		<a href="https://open.spotify.com/album/3ilXDEG0xiajK8AbqboeJz" title="Echoes, Silence, Patience & Grace"><img src="assets\albums\echoes.jpg"></a>
+		<a href="https://open.spotify.com/album/2eprpJCYbCbPZRKVGIEJxZ" title="In Your Honour on Spotify"><img src="assets\albums\inyourhonour.jpg"></a>
+		<span class="stretch"></span>
+	</div>
+</section>
+
+<div class="parallax-four">
+	<div id="main">
+		<div class="mySlides fade">
+			<div class="numbertext"> 1/3 </div>
+			<img src="assets\concert.jpg" style="width: inherit">
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext"> 2/3 </div>
+			<img src="assets\dark.jpg" style="width:inherit">
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext"> 3/3 </div>
+			<img src="assets\group.jpg" style="width:inherit">
+		</div>			
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+</div>
+
+<section class="split">
+	<div>
+		<a href="https://open.spotify.com/album/2TIp2qGorHvqyaiAb82Awe" title="One by One on Spotify"><img src="assets\albums\onebyone.jpg"></a>
+		<a href="https://open.spotify.com/album/28q2N44ocJECgf8sbHEDfY" title="There Is Nothing Left To Lost on Spotify"><img src="assets\albums\lefttolose.jpg"></a>
+		<a href="https://open.spotify.com/album/6t0KW8iHL9e8Q60nW5KYsR" title="The Colour and The Shape on Spotify"><img src="assets\albums\colourandshape.jpg"></a>
+		<a href="https://open.spotify.com/album/4EnNuo8fG7dMoxMefbApRY" title="Foo Fighters on Spotify"><img src="assets\albums\foofighters.jpg"></a>
+		<span class="stretch"></span>
+	</div>
+</section>
+
+<div class="parallax-three">
+	<section id="events">
+		<img class="Slides" src="assets\tour\tour.jpg">
+		<img class="Slides" src="assets\tour\tour1.jpg">
+		<img class="Slides" src="assets\tour\tour2.jpg">
+		<img class="Slides" src="assets\tour\tour3.jpg">
+		<img class="Slides" src="assets\tour\tour4.jpg">
+		<script src="js\carousel.js"></script>
+		<div>
+			<h1>Concrete and Gold Tour 2018</h1>
+		</div>
+	</section>
+</div>
+</section>
+<footer>
+	<div id="social">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<a href="https://en-gb.facebook.com/foofighters/" class="fa fa-facebook"></a>
+		<a href="https://twitter.com/foofighters?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+		<a href="https://www.instagram.com/foofighters/?hl=en" class="fa fa-instagram"></a>
+		<a href="https://www.youtube.com/channel/UCi2KNss4Yx73NG0JARSFe0A" class="fa fa-youtube"></a>
+	</div>
+</footer>
+
+</body>
+</html>

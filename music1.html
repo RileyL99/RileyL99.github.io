@@ -1,0 +1,28 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css\music1.css">
+	<script src="js\jquery-1.6.1.min.js"></script>
+	<script src="js\jquery.easyui.min.js"></script>
+	<script src="js\music1.js"></script>
+</head>
+<body>
+<div class="container">
+    <h2>Discography</h2>
+    <p>Click an album cover to hear a 30 second preview, or click the button to play the album on Spotify!</p><br />
+    <div id="results"></div>
+</div>
+<iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:6sFIWsNpZYqfjUpaCgueju&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+<iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<script id="results-template" type="text/x-handlebars-template">
+{{#each albums.items}}
+    <div style="background-image:url({{images.0.url}})" data-album-id="{{id}}" class="cover">
+		<a href="{{external_urls.spotify}}">
+			<div class="spotify-button">
+				<img src="https://developer.spotify.com/wp-content/uploads/2014/06/play_on_spotify-green.png" />
+			</div>
+		</a>
+	</div>
+   {{/each}}
+</script>
+</body>
+</html>
