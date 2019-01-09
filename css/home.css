@@ -35,7 +35,7 @@ section.body{
 	position: relative;
 	background-color:#cccccc;
 	margin:0px;
-	min-height: 100%;
+	min-height: 100vh;
 	width: 100vw;
 }
 .overlay{
@@ -578,7 +578,7 @@ section.news{
 	box-shadow: inset 0px 1px 0px rgba(255,255,255, 0.3);
 	width: 122px;
 	margin: auto;
-	margin-top: 20px;
+	margin-top: 20vh;
 }
 .loc-wrapper .button:hover{
 	background-color: #00b495;
