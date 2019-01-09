@@ -530,7 +530,7 @@ section.news{
 .loc-wrapper{
 	display: inline-block;
 	text-align: center;
-	min-height: 60vh;
+	min-height: 100vh;
 	width: 70vw;
 	margin: auto;
 	position: relative;
@@ -543,6 +543,7 @@ section.news{
 	width: 40vw;
 	height: 40vh;
 	margin: auto;
+	margin-top: 20vh;
 	padding: 2vh;
 	border: 1px solid black;
 	background: #474747;
@@ -552,7 +553,7 @@ section.news{
 	display: block;
 	font-weight: bold;
 	font-size: 12px;
-	color: rgb(54,54,54);
+	color: white;
 	width: 15vw;
 	line-height: 135%;
 	margin: auto;
