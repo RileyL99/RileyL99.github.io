@@ -204,20 +204,20 @@ a.button:hover{
 }
 section.split {
 	width: 100%;
-	min-height: 25vh;
+	height: 25vh;
 	background-color: #737373;
 	text-align: center;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 section.split div{
-	width: 50%;
-	min-height: 20vh;
+	width: 60%;
+	height: 20vh;
 	display: inline-block;
 	background:linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
 	background-size: 64px 128px;
 	background-color: #737373;
 	margin-top: 15px;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.39);
 	text-align: justify;
 	-ms-text-justify: distribute-all-lines;
 	text-justify: distribute-all-lines;
@@ -429,13 +429,6 @@ div.parallax-music{
 .flex-container .button {
 	margin: 1vh;
 	padding: 1vh;
-}
-section.split {
-	width: 100%;
-	height: 20vh;
-	background-color: #737373;
-	text-align: center;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 div#filler{
 	height: 20vh;
@@ -686,6 +679,7 @@ footer{
 	div.parallax-one{min-height: 450px;}
 	div.parallax-two{min-height: 450px;}
 	div.parallax-three{min-height: 450px;}
+	div.parallax-four{min-height: 450px;}
 	div#main{
 		margin-top: 15vh;
 	}
@@ -710,6 +704,7 @@ footer{
 	section#news div{
 		width: 35vw;
 		max-height: 40vh;
+		margin-top: 5vh;
 	}
 	section#news img{
 		margin-top: 10vh;
@@ -728,11 +723,23 @@ footer{
 		margin-right: 5vh;
 		width:30vw;
 	}
+	section.split{
+		height: 22vh;
+	}
+	section.split div{
+		height:18vh;
+		margin-top: 10px;
+	}
+	section.split img{
+		width: 18vh;
+		height: 18vh;
+	}
 }
 @media screen and (max-width: 900px){
 	div.parallax-one{min-height: 400px;}
 	div.parallax-two{min-height: 400px;}
 	div.parallax-three{min-height: 400px;}
+	div.parallax-four{min-height: 400px;}
 	div#main {
 		margin-top: 20vh;
 	}
@@ -744,21 +751,23 @@ footer{
 		width: 72vh;
 		height: 40vh;
 	}
-	section.split{height: 17vh;}
-	section.split div{
-		height:12vh;
-		margin-top: 13px;
-	}
 	section#news{
 		height: 50vh;
 		margin-top: 5vh;
 	}
 	section#news div{
-		height: 38vh;
+		height: 34vh;
+		margin-top: 3vh;
 	}
 	section#news img{
-		height: 20vh;
-		width: 28vh;
+		height: 18vh;
+		width: 25vh;
+	}
+	section#news h1{
+		font-size: 18px;
+	}
+	section#news p{
+		font-size: 16px;
 	}
 	section#events{
 		height: 50vh;
@@ -774,11 +783,23 @@ footer{
 		height: 40vh;
 		margin-top: 5vh;
 	}
+	section.split {
+		height: 18vh;
+	}
+	section.split div{
+		height: 14vh;
+		margin-top: 2vh;
+	}
+	section.split img{
+		width: 14vh;
+		height: 14vh;
+	}
 }
 @media screen and (max-width: 768px){
 	div.parallax-one{min-height: 350px;}
 	div.parallax-two{min-height: 350px;}
 	div.parallax-three{min-height: 350px;}
+	div.parallax-four{min-height: 350px;}
 	div#main{
 		margin-top:20vh;
 	}
@@ -789,11 +810,6 @@ footer{
 	.mySlides img{
 		width: 54vh;
 		height: 30vh;
-	}
-	section.split{height: 15vh;}
-	section.split div{
-		height:10vh;
-		margin-top: 15px;
 	}
 	section#news {
 		height: 47vh;
@@ -810,8 +826,14 @@ footer{
 	section#news img{
 		float: none;
 		margin-top: 2vh;
-		height: 20vh;
-		width: 28vh;
+		height: 18vh;
+		width: 25vh;
+	}
+	section#news h1{
+		font-size: 16px;
+	}
+	section#news p{
+		font-size: 14px;
 	}
 	section#events{
 		height: 47vh;
@@ -825,11 +847,23 @@ footer{
 	section#events div{
 		height: 35vh;
 	}
+	section.split{
+		height:16vh;
+	}
+	section.split div{
+		height: 12vh;
+		margin-top: 1.5vh;
+	}
+	section.split img{
+		height: 12vh;
+		width: 12vh;
+	}
 }
 @media screen and (max-width: 600px){
 	div.parallax-one{min-height: 300px;}
 	div.parallax-two{min-height: 300px;}
 	div.parallax-three{min-height: 300px;}
+	div.parallax-four{min-height: 300px;}
 	div#main{
 		margin-top:20vh;
 	}
@@ -869,11 +903,23 @@ footer{
 		height: 30vh;
 		width: 30vw;
 	}
+	section.split{
+		height:16vh;
+	}
+	section.split div{
+		height: 12vh;
+		margin-top: 1.5vh;
+	}
+	section.split img{
+		height: 12vh;
+		width: 12vh;
+	}
 }
 @media screen and (max-width: 480px){
 	div.parallax-one{min-height: 250px;}
 	div.parallax-two{min-height: 250px;}
 	div.parallax-three{min-height: 250px;}
+	div.parallax-four{min-height: 250px;}
 	div#main{
 		margin-top:15vh;
 	}
@@ -907,6 +953,7 @@ footer{
 	div.parallax-one{min-height: 200px;}
 	div.parallax-two{min-height: 200px;}
 	div.parallax-three{min-height: 200px;}
+	div.parallax-four{min-height: 200px;}
 	div#main{
 		margin-top:15vh;
 	}
